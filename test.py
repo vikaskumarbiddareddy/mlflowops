@@ -4,7 +4,6 @@ import warnings
 
 def calculate(x,y):
     return x*y
-
 if __name__ == "__main__":
 
     with mlflow.start_run():
